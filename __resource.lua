@@ -29,5 +29,9 @@ server_scripts {
 	'config.lua',
 	'server/main.lua'
 }
-
-dependency 'es_extended'
+dependencies {
+	'es_service',
+	'esx_billing',
+	'es_extended',
+	'esx_society'	
+}
